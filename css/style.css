@@ -34,8 +34,16 @@ img {
     flex-basis: calc(100% / 4);
 }
 
+.col-4 {
+    flex-basis: calc(100% / 3);
+}
+
 .col-6 {
     flex-basis: calc(100% / 2);
+}
+
+.col-8 {
+    flex-basis: calc(100% / 1.5)
 }
 
 .col-10 {
@@ -59,7 +67,7 @@ img {
 }
 
 .debug .row {
-    border: 3px solid violet;
+    border: 3px dashed rgb(17, 248, 0);
 }
 
 .debug .col {
@@ -79,4 +87,8 @@ img {
 .debug .main-content .section .col {
     min-height: 300px;
     background-color: pink;
+}
+
+.debug .main-content .second-section .col-8 {
+    background-color: cyan;
 }
