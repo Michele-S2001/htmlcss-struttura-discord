@@ -156,3 +156,8 @@ button {
     padding: 20px 0;
     background-color:aquamarine;
 }
+
+.debug .footer-bar .row > .col {
+    padding: 3px 10px;
+    background-color: rgb(252, 190, 183);
+}
