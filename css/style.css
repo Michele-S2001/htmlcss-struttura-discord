@@ -45,6 +45,10 @@ img {
 
 
     /* 12 column layout classes */
+.col-2 {
+    flex-basis: calc(100% / 6);
+}
+
 .col-3 {
     flex-basis: calc(100% / 4);
 }
@@ -120,4 +124,12 @@ img {
 .debug .col.col-12 {
     background-color: green;
     min-height: 500px;
+}
+
+.debug .main-footer .col {
+    min-height: 400px;
+}
+
+.debug .main-footer .row {
+    padding: 5px 0 20px 0;
 }
