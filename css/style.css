@@ -8,6 +8,12 @@ img {
     max-width: 100%;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 /* utility classes */
 .container {
     max-width: 980px;
