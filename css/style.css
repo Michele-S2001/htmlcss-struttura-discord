@@ -134,11 +134,19 @@ img {
     border-bottom: 2px solid white;
 }
 
+.debug .main-footer .row {
+    background-color:darkcyan;
+}
+
+.debug .main-footer .col:first-child {
+    background-color: darksalmon;
+}
+
 .debug .footer-bar {
     padding-top: 15px;
 }
 
 .debug .footer-bar .row {
     padding: 20px 0;
-
+    background-color:aquamarine;
 }
