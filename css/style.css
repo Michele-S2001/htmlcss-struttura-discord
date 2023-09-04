@@ -67,8 +67,16 @@ button {
     flex-basis: calc(100% / 3);
 }
 
+.col-5 {
+    flex-basis: calc(100% / 2.4);
+}
+
 .col-6 {
     flex-basis: calc(100% / 2);
+}
+
+.col-7 {
+    flex-basis: calc(100% / 1.715);
 }
 
 .col-8 {
