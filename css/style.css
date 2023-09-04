@@ -30,6 +30,21 @@ img {
     justify-content: center;
 }
 
+    /* background colors classes */
+    .bg-grey {
+        background-color: #d3d3d3;
+    }
+
+    .bg-darkgrey {
+        background-color: #23272a;
+    }
+
+    .bg-blue {
+        background-color: #00008b;
+    }
+
+
+    /* 12 column layout classes */
 .col-3 {
     flex-basis: calc(100% / 4);
 }
