@@ -31,17 +31,17 @@ img {
 }
 
     /* background colors classes */
-    .bg-grey {
-        background-color: #d3d3d3;
-    }
+.bg-grey {
+    background-color: #d3d3d3;
+}
 
-    .bg-darkgrey {
-        background-color: #23272a;
-    }
+.bg-darkgrey {
+    background-color: #23272a;
+}
 
-    .bg-blue {
-        background-color: #00008b;
-    }
+.bg-blue {
+    background-color: #00008b;
+}
 
 
     /* 12 column layout classes */
@@ -97,11 +97,11 @@ img {
     background-color: aqua;
     padding: 10px 0;
 }
-
+/* 
 .debug .section {
     background-color: blue;
     padding: 30px 0;
-}
+} */
 
 .debug .main-content .col {
     min-height: 400px;
