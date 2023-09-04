@@ -17,3 +17,49 @@ img {
 .row {
     display: flex;
 }
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.col-3 {
+    flex-basis: calc(100% / 4);
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+}
+
+
+
+/* debug selectors */
+
+/* .debug .container {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+} */
+
+.debug nav {
+    background-color: darkgoldenrod;
+}
+
+.debug nav > .row {
+    padding: 5px;
+}
+
+.debug .row {
+    border: 3px solid violet;
+}
+
+.debug .col {
+    border: 2px dotted red;
+}
+
+.debug header {
+    background-color: aqua;
+    padding: 10px 0;
+}
