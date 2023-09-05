@@ -24,14 +24,6 @@ button {
     display: flex;
 }
 
-.text-align-center {
-    text-align: center;
-}
-
-.text-align-end {
-    text-align: end;
-}
-
 .justify-content-center {
     justify-content: center;
 }
